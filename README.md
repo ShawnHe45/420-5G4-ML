@@ -20,5 +20,5 @@ Sinon, écrit ".\.venv\Scripts\Activate.ps1 dans PowerShell" et .venv\Scripts\ac
 
 Pour réinstaller les dépendances, écris pip install -r requirements.txt<br>
 Sinon, écris pip install requests matplotlib<br>
-Si pandas n'est pas inclus, écris python -m pip install pandas ou dans une cellule %pip install pandas<br>
-Écrivez pip freeze > requirements.txt pour une réinstallation facile
+Si pandas, ou un dépendance spécifique, n'est pas inclus, écris python -m pip install pandas, <nom du dépendance> ou dans une cellule %pip install pandas, <nom du dépendance><br>
+Écrivez pip freeze > requirements.txt pour mettre les nouveaux dépendances
